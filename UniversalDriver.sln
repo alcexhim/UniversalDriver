@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversalDriver.MonitorApplication", "UniversalDriver.MonitorApplication\UniversalDriver.MonitorApplication.csproj", "{1E1AD47C-91C9-408E-B218-F15954FF53D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversalDriver.ContourDesign", "UniversalDriver.ContourDesign\UniversalDriver.ContourDesign.csproj", "{BC6861CC-15EB-4F06-94AD-40FF967C55B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversalDriver", "UniversalDriver\UniversalDriver.csproj", "{BAC772AD-0C18-46C6-88AB-A32AC88417B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E1AD47C-91C9-408E-B218-F15954FF53D4}.Debug|x86.ActiveCfg = Debug|x86
+		{1E1AD47C-91C9-408E-B218-F15954FF53D4}.Debug|x86.Build.0 = Debug|x86
+		{1E1AD47C-91C9-408E-B218-F15954FF53D4}.Release|x86.ActiveCfg = Release|x86
+		{1E1AD47C-91C9-408E-B218-F15954FF53D4}.Release|x86.Build.0 = Release|x86
+		{BAC772AD-0C18-46C6-88AB-A32AC88417B4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BAC772AD-0C18-46C6-88AB-A32AC88417B4}.Debug|x86.Build.0 = Debug|Any CPU
+		{BAC772AD-0C18-46C6-88AB-A32AC88417B4}.Release|x86.ActiveCfg = Release|Any CPU
+		{BAC772AD-0C18-46C6-88AB-A32AC88417B4}.Release|x86.Build.0 = Release|Any CPU
+		{BC6861CC-15EB-4F06-94AD-40FF967C55B5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BC6861CC-15EB-4F06-94AD-40FF967C55B5}.Debug|x86.Build.0 = Debug|Any CPU
+		{BC6861CC-15EB-4F06-94AD-40FF967C55B5}.Release|x86.ActiveCfg = Release|Any CPU
+		{BC6861CC-15EB-4F06-94AD-40FF967C55B5}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = USBMonTest\USBMonTest.csproj
+	EndGlobalSection
+EndGlobal
