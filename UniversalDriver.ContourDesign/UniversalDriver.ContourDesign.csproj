@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -9,7 +9,8 @@
     <OutputType>Library</OutputType>
     <RootNamespace>UniversalDriver.ContourDesign</RootNamespace>
     <AssemblyName>UniversalDriver.ContourDesign</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -40,10 +41,7 @@
     <Compile Include="Devices\ContourDesign\Shuttle\Shuttle.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ItemGroup>
-    <Folder Include="Devices\ContourDesign\" />
-    <Folder Include="Devices\ContourDesign\Shuttle\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\UniversalDriver\UniversalDriver.csproj">
       <Project>{BAC772AD-0C18-46C6-88AB-A32AC88417B4}</Project>

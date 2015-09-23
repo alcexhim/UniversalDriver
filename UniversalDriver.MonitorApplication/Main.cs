@@ -1,5 +1,6 @@
 using System;
 using UniversalDriver.Devices.ContourDesign.Shuttle;
+using UniversalDriver.Drivers.FingerprintScanner.URU4000;
 
 namespace UniversalDriver.MonitorApplication
 {
@@ -7,6 +8,7 @@ namespace UniversalDriver.MonitorApplication
 	{
 		public static void Main (string[] args)
 		{
+			/*
 			Shuttle device = new Shuttle("/dev/input/by-id/usb-Contour_Design_ShuttlePRO_v2-event-if00");
 			// Shuttle device = new Shuttle("/dev/input/by-id/usb-Contour_Design_ShuttleXpress-event-if00");
 			
@@ -15,6 +17,14 @@ namespace UniversalDriver.MonitorApplication
 			device.ShuttleWheelPositionChanged += device_ShuttleWheelPositionChanged;
 			device.JogWheelPositionChanged += device_JogWheelPositionChanged;
 			device.Start();
+				*/
+
+			USBDevice[] devices = USBDevice.Get();
+
+			URU4000Device device = new URU4000Device();
+			device.Start();
+
+
 		}
 
 		static void device_JogWheelPositionChanged(object sender, WheelPositionChangedEventArgs e)

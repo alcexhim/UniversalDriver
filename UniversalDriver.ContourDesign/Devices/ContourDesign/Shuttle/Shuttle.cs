@@ -32,7 +32,7 @@ namespace UniversalDriver.Devices.ContourDesign.Shuttle
 			if (ButtonReleased != null) ButtonReleased(this, e);
 		}
 		
-		public Shuttle(string path) : base(path)
+		public Shuttle(string path) : base()
 		{
 		}
 		
